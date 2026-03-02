@@ -1,6 +1,6 @@
-# 🏢 Real Estate Treasury & Risk Analysis Dashboard
+#  Real Estate Treasury & Risk Analysis Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 
 This project presents an end-to-end financial analysis of a synthetic real-estate company using Power BI.
 
@@ -13,31 +13,30 @@ The objective was to simulate a real treasury and financial monitoring scenario,
 
 The dashboard set is designed to mimic real CFO / Treasury reporting and business decision workflows.
 
----
 
-## 🎯 Business Questions Addressed
+##  Business Questions Addressed
 
-### 1️⃣ Treasury Health
+### 1 Treasury Health
 - How is liquidity evolving over time?
 - Is the company generating or consuming cash?
 
-### 2️⃣ Cash Flow Drivers
+### 2 Cash Flow Drivers
 - Which categories drive incoming vs outgoing cash?
 - Where is money leaking?
 
-### 3️⃣ Tenant Risk Analysis
+### 3 Tenant Risk Analysis
 - Which tenants represent payment risk?
 - How concentrated is payment reliability risk?
 
-### 4️⃣ Expense Structure
+### 4 Expense Structure
 - Are operating costs sustainable?
 - What expense categories dominate the cost base?
 
 ---
 
-## 📊 Dashboard Structure
+##  Dashboard Structure
 
-### 🔹 Dashboard 1 — Treasury Overview
+###  Dashboard 1 — Treasury Overview
 **Purpose:** Executive snapshot of financial health.
 
 Main components:
@@ -48,9 +47,9 @@ Main components:
 - Inflow vs Outflow comparison
 - Top counterparties
 
----
 
-### 🔹 Dashboard 2 — Cash Flow Drivers
+
+###  Dashboard 2 — Cash Flow Drivers
 **Purpose:** Understand category-level drivers of cash movement.
 
 Includes:
@@ -59,9 +58,9 @@ Includes:
 - Top expense categories
 - Transaction detail table for drilldown
 
----
 
-### 🔹 Dashboard 3 — Tenant Payment Risk Analysis
+
+###  Dashboard 3 — Tenant Payment Risk Analysis
 **Purpose:** Evaluate tenant payment reliability and risk.
 
 Key metrics:
@@ -74,9 +73,9 @@ Visuals:
 - Risk table with conditional formatting
 - Tenant risk KPIs
 
----
 
-### 🔹 Dashboard 4 — Expense Structure Overview
+
+###  Dashboard 4 — Expense Structure Overview
 **Purpose:** Analyze operational sustainability.
 
 Key KPIs:
@@ -87,25 +86,25 @@ Key KPIs:
 
 ---
 
-## 🔎 Key Business Insights
+## Key Business Insights
 
-### 💰 Cash Situation
+###  Cash Situation
 - Cash balance shows continuous decline over the observed period.
 - In 2024 alone, net cash flow reached **−0.75M€**, indicating structural cash consumption.
 
 ---
 
-### ⚠️ Tenant Risk Exposure
+###  Tenant Risk Exposure
 - 148 active tenants during the selected period.
 - 38 tenants (25.7%) classified as **high risk** (OTP < 30%).
 - 22 tenants made no payments during the year.
 - Only ~11% can be considered safe tenants.
 
-➡️ Revenue reliability is highly unstable.
+ Revenue reliability is highly unstable.
 
 ---
 
-### 📉 Operational Cost Problem
+###  Operational Cost Problem
 - OPEX represents approximately **127% of revenue**.
 - Operating margin remains negative.
 
@@ -113,7 +112,7 @@ This indicates that the current operating model is not financially sustainable.
 
 ---
 
-### 👥 Payroll Concentration
+###  Payroll Concentration
 - Salaries account for approximately **42% of total OPEX**, making it the largest expense driver.
 
 Possible implication:
@@ -121,7 +120,7 @@ Possible implication:
 
 ---
 
-### 🏗️ Investment vs Operations
+###  Investment vs Operations
 - CAPEX exists but remains relatively low compared to operational spending.
 
 This may suggest:
@@ -129,7 +128,7 @@ This may suggest:
 
 ---
 
-## 🧠 Strategic Interpretation
+##  Strategic Interpretation
 
 The company appears to face a dual risk:
 
@@ -141,11 +140,11 @@ The company appears to face a dual risk:
    - OPEX exceeds revenue.
    - Payroll dominates expenses.
 
-➡️ Without structural cost reduction or revenue improvement, the operating model appears unsustainable.
+ Without structural cost reduction or revenue improvement, the operating model appears unsustainable.
 
 ---
 
-## 🛠️ Technical Highlights
+##  Technical Highlights
 
 - Data modeling with star-schema approach
 - Custom DAX measures:
@@ -158,7 +157,7 @@ The company appears to face a dual risk:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 Synthetic dataset designed to simulate real treasury operations:
 
@@ -168,7 +167,7 @@ Synthetic dataset designed to simulate real treasury operations:
 
 ---
 
-## 🧩 Tools Used
+##  Tools Used
 
 - Power BI
 - DAX
@@ -177,7 +176,7 @@ Synthetic dataset designed to simulate real treasury operations:
 
 ---
 
-## 🚀 Author Notes
+##  Author Notes
 
 This project focuses not only on visualization but on translating financial data into actionable business insights.
 
